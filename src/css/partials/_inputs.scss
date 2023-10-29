@@ -1,0 +1,140 @@
+.sectionMain_text {
+  color: #141c24;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  line-height: 44px; /* 122.222% */
+}
+
+.no_acc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #344051;
+}
+
+.no_acc a {
+  color: #9126d9;
+}
+
+.auth .input {
+  margin: 1rem 0;
+}
+.auth .input_wrap {
+  display: flex;
+  padding: 10px 8px 10px 12px;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #ced2da;
+  background: #fff;
+}
+
+.auth .input_wrap.web,
+.auth .input_wrap.sel {
+  padding: 0;
+}
+
+.auth .input_wrap.web span {
+  border-radius: 8px 0px 0px 8px;
+  padding: 10px 8px 10px 12px;
+  border-right: 1px solid #ced2da;
+  background: #f9fafb;
+}
+.auth .input_wrap.sel select {
+  border-radius: 8px 0px 0px 8px;
+  padding: 10px 8px 10px 12px;
+  border-right: 1px solid #ced2da;
+  background: #f9fafb;
+  width: 63px;
+}
+
+.auth .input_wrap .q-btn {
+  padding: 0;
+  min-height: auto;
+}
+.auth .input_wrap img {
+  width: 20px;
+  height: 20px;
+}
+
+.auth input,
+.auth textarea,
+select {
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.grid.three {
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.grid.three .input_wrap {
+  height: 43.15px;
+}
+
+.grid .input {
+  margin-bottom: 0;
+}
+.q-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.drawer {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dialog .q-dialog__backdrop {
+  background: rgba(52, 64, 84, 0.7);
+  /* Background blur/md */
+  backdrop-filter: blur(8px);
+}
+
+.container {
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+// img {
+//   width: 100%;
+//   object-fit: cover;
+// }
+
+.login_btn {
+  margin-top: 2rem;
+}
+.login_btn .q-btn {
+  border-radius: 8px;
+  background: #9126d9;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 20px;
+  width: 100%;
+  line-height: 24px; /* 150% */
+}
+
+.auth label {
+  color: #344051;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  display: block;
+  line-height: 20px; /* 142.857% */
+}
